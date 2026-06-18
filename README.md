@@ -1,71 +1,36 @@
-# rekord README
+# Rekord 🔴
 
-This is the README for your extension "rekord". After writing up a brief description, we recommend including the following sections.
+> Never lose working code again.
+
+Rekord is a VS Code extension that saves checkpoints of your entire project, lets you roll back instantly, and automatically pushes your code + AI-generated documentation to GitHub.
+
+## The Problem
+You're coding with an AI agent. It breaks something that was working. You scroll back through 50 messages trying to find the last good version. Sound familiar?
+
+## The Solution
+Hit `Ctrl+Shift+S` to save a checkpoint. If anything goes wrong, roll back to any previous state in one click. Every checkpoint is automatically pushed to GitHub with an AI-generated README.
 
 ## Features
+- ⏺ **One-click checkpointing** — save your entire project state instantly
+- ⏪ **Instant rollback** — restore any previous version in one click
+- 📊 **Visual timeline** — see your entire project history inside VS Code
+- 📤 **Auto GitHub push** — every checkpoint goes to GitHub automatically
+- 🤖 **AI README generation** — Gemini reads your code and writes your docs
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Setup
+1. Install the extension
+2. `Ctrl+Shift+P` → `Rekord: Setup GitHub Token`
+3. `Ctrl+Shift+P` → `Rekord: Setup AI (Gemini)`
+4. Press `Ctrl+Shift+S` to save your first checkpoint
 
-For example if there is an image subfolder under your extension project workspace:
+## Built With
+- TypeScript
+- VS Code Extension API
+- GitHub API (Octokit)
+- Google Gemini AI
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+## Author
+Built by Hadiyah Saeed, age 14, Islamabad 🇵🇰
 
 ---
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+*Rekord — Because your code deserves a save point.*
